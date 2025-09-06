@@ -1,0 +1,94 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Encyclopedia/Atlas/Landmarks",
+      "template": "_/Templates/Landmark.md"
+    },
+    {
+      "folder": "Encyclopedia/Atlas/Regions",
+      "template": "_/Templates/Region.md"
+    },
+    {
+      "folder": "Encyclopedia/Atlas/Settlements",
+      "template": "_/Templates/Settlement.md"
+    },
+    {
+      "folder": "Encyclopedia/Culture/Civilization/Professions",
+      "template": "_/Templates/Profession.md"
+    },
+    {
+      "folder": "Encyclopedia/Culture/Civilization/Traditions",
+      "template": "_/Templates/Tradition.md"
+    },
+    {
+      "folder": "Encyclopedia/Culture/Faith/Deities",
+      "template": "_/Templates/Deity.md"
+    },
+    {
+      "folder": "Encyclopedia/Culture/Faith/Religion",
+      "template": "_/Templates/Region.md"
+    },
+    {
+      "folder": "Encyclopedia/Culture/Folks and Kin",
+      "template": "_/Templates/Race.md"
+    },
+    {
+      "folder": "Encyclopedia/Geopolitical Theatre/Organizations",
+      "template": "_/Templates/Organization.md"
+    },
+    {
+      "folder": "Encyclopedia/Historical Figures/Active",
+      "template": "_/Templates/Character.md"
+    },
+    {
+      "folder": "Encyclopedia/Historical Figures/Historical Families",
+      "template": "_/Templates/Family.md"
+    },
+    {
+      "folder": "Encyclopedia/History/Conflicts",
+      "template": "_/Templates/Conflict.md"
+    },
+    {
+      "folder": "Encyclopedia/Natura/Fauna",
+      "template": "_/Templates/Species.md"
+    },
+    {
+      "folder": "Encyclopedia/Natura/Flora",
+      "template": "_/Templates/Species.md"
+    },
+    {
+      "folder": "Encyclopedia/Natura/Materials",
+      "template": "_/Templates/Item.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}
