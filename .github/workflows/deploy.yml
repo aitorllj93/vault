@@ -1,0 +1,36 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install, build, and upload your site
+        uses: aitorllj93/spaceship-action@main
+        with:
+          site: https://${{github.repository_owner}}.github.io
+          base: /${{ github.event.repository.name }}/
+          default_locale: es
+          title: ${{ github.event.repository.name }}
+          features_article_author_enabled: false
+          features_article_date_enabled: false
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
