@@ -1,5 +1,7 @@
 {
-  "theme": "system",
+  "cssTheme": "ITS Theme",
+  "theme": "obsidian",
+  "accentColor": "#44363b",
   "baseFontSize": 16,
   "translucency": false,
   "enabledCssSnippets": [],
